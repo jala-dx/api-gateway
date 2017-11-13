@@ -1,4 +1,3 @@
-root@elastic-stack:/vagrant/traefik# cat README 
 /vagrant/traefik
 run 'docker-compose up -d'
 cd test
@@ -40,6 +39,7 @@ ceb200e55c77        emilevauge/whoami   "/whoamI"                38 minutes ago 
 bbc586de5601        emilevauge/whoami   "/whoamI"                38 minutes ago      Up 38 minutes       80/tcp                                       test_whoami_1
 80370780a17f        traefik             "/traefik --web --..."   41 minutes ago      Up 40 minutes       0.0.0.0:81->80/tcp, 0.0.0.0:8081->8080/tcp   traefik_proxy_1
 950d4dd59e4b        redis               "docker-entrypoint..."   2 weeks ago         Up 4 days           0.0.0.0:6379->6379/tcp                       myredis
+
 
 
 
