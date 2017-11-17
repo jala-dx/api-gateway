@@ -1,0 +1,15 @@
+1. glide up
+2. go build
+3. 
+
+vagrant@myvm:~/go/src/github.com/codegangsta$ ./codegangsta 
+[negroni] 2017-11-17T02:32:03Z | 301 | 	 8.486406ms | localhost:3000 | GET /dashboard 
+2017/11/17 02:32:33 The klout API is down. F it, let them in. YOLO SWAG 420 BLAZE IT!
+[negroni] 2017-11-17T02:32:33Z | 200 | 	 10.005880726s | localhost:3000 | GET /dashboard/things 
+
+
+4. 
+
+vagrant@myvm:~/go/src/github.com/codegangsta$ curl -XGET localhost:3000/dashboard/things
+The klout API is down. F it, let them in. YOLO SWAG 420 BLAZE IT!<h1>Here are your things:</h1> <ul><li><img src="http://devstickers.com/assets/img/pro/5j1q.png"></li><li><img src="http://assets.bwbx.io/images/irJV4Lf1p7pI/v1/-1x-1.jpg"></li><li><img src="http://assets.bwbx.io/images/izimLvFvzUIE/v1/-1x-1.jpg"></li><li><img src="http://assets.bwbx.io/images/iMU90m8Aw6zA/v1/-1x-1.jpg"></li></ul>After processingvagrant@myvm:~/go/src/github.com/codegangsta$ pwd
+/home/vagrant/go/src/github.com/codegangsta
